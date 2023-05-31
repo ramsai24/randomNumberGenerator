@@ -20,9 +20,7 @@ class RandomNumberGenerator extends Component {
         <div className="bg-container">
           <h1 className="heading">Random Number</h1>
           <p className="description">
-            Generate a random number in the
-            <br />
-            range of 0 to 100
+            Generate a random number in the range of 0 to 100
           </p>
 
           <button
@@ -33,7 +31,7 @@ class RandomNumberGenerator extends Component {
             Generate
           </button>
           <br />
-          <span className="spanEl">{random}</span>
+          <p className="spanEl">{random}</p>
         </div>
       </div>
     )
